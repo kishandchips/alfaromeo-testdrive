@@ -182,14 +182,18 @@ body {
 
 			.car-right {
 				position: absolute;
-				right: -1%;
-				bottom: 140px;
-				width: 30%;
-				height: 53%;
+				right: -12%;
+				bottom: 0px;
+				width: 40%;
+				height: 60%;
 				background: url('../images/backgrounds/car-bottom-right.png');
 				background-size: contain;
 				background-repeat: no-repeat;
 				background-position: left bottom;
+
+				.home & {
+					bottom: 140px;	
+				}
 			}				
 		}
 	}	
@@ -206,7 +210,7 @@ body {
 			h1 {
 				font-family: sans-serif;
 				a {
-					color: #96172e;
+					color: #ea0000;
 					font-family: sans-serif;
 				}
 			}
@@ -222,7 +226,7 @@ body {
 
 				a {
 					text-decoration: underline;
-					color: #96172e;
+					color: #ea0000;
 				}
 			}
 
@@ -257,7 +261,11 @@ body {
 					background-repeat: no-repeat;
 					background-position: bottom left;					
 				}
-			}		
+			}
+
+			.shadow {
+				display: none;
+			}	
 		}			
 
 		.container {
