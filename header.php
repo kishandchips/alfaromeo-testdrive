@@ -42,8 +42,8 @@
 					<?php bloginfo( 'name' ); ?>
 				</h1>
 				<h2 class="tagline">
-					<?php bloginfo( 'description' ); ?>
-					<span>0843 393 2110</span>
+					<?php // bloginfo( 'description' ); ?>
+					<span class="phone">08433 936090</span>
 					<a class="scroll-to-btn" href="#start" data-icon="3"></a href="#top">
 				</h2>						
 			</div>

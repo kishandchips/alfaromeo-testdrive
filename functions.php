@@ -115,6 +115,7 @@ function generate_xml($entry, $form) {
 			<UseOfDataTelephone>'.$entry['23.2'].'</UseOfDataTelephone>
 			<UseOfDataEmail>'.$entry['23.3'].'</UseOfDataEmail>
 			<UseOfDataSMS>'.$entry['23.4'].'</UseOfDataSMS>
+			<OffuceUseOnlyEmail>'.$entry['24'].'</OffuceUseOnlyEmail>
 		</TestDriveBookingAlfa>
 	</TestDriveBookingsAlfa>
 	';

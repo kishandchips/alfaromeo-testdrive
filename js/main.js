@@ -170,10 +170,9 @@
 
 	$(window).load(function(){
 		main.loaded();
-
-		$('.datepicker').datepicker('option', 'minDate', 3);
 		
 		if(window.location.hash == '#terms-and-conditions') {
+			console.log('TC');
 		  $('.footer-text a').click();
 		}			
 	});
